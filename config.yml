@@ -1,0 +1,13 @@
+lgp171188/sweet_life:
+  patterns:
+    - "docs/*"
+  recipients:
+    - "guruprasad@guruprasad.org"
+  subject: "PR Watcher notifier: watched change in {repo}"
+  body: body2.txt
+open-craft/*:
+  patterns:
+    - pr_watcher_notifier/*
+  subject: "PR watcher notifier: watched change in {repo}"
+  recipients:
+    - guruprasad@guruprasad.org
